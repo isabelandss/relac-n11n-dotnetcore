@@ -24,7 +24,8 @@ namespace relacionamento1nn1_api
                 .UseStartup<Startup>()
                 .Build();
 
-            BuildWebHost(args).Run();
+            // BuildWebHost(args).Run();
+            host.Run();
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
