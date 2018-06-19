@@ -1811,10 +1811,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.SqlServer.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/2.0.2": {
+      "Microsoft.Extensions.Configuration/2.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "2.0.2"
+          "Microsoft.Extensions.Configuration.Abstractions": "2.1.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -1862,10 +1862,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.CommandLine/2.0.2": {
+      "Microsoft.Extensions.Configuration.CommandLine/2.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.2"
+          "Microsoft.Extensions.Configuration": "2.1.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll": {}
@@ -6363,15 +6363,15 @@
         "microsoft.extensions.caching.sqlserver.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration/2.0.2": {
-      "sha512": "n5HeFXiEFONntcwVFvEGY5dnB8VRqGD20RrdB9omX6dAAUSIV/sGwGhaLV5neOt/uvhc64VDmKjIjdffC6TX5A==",
+    "Microsoft.Extensions.Configuration/2.1.0": {
+      "sha512": "9OBzLBp9iD0slK3YKwnaWQ7VMWf5Vq2u8A1iULvMA5pXJ/A03bap24HQoH6AZR6O4HDOYRnjkfy9AydHRD7jVQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/2.0.2",
+      "path": "microsoft.extensions.configuration/2.1.0",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.2.0.2.nupkg.sha512",
+        "microsoft.extensions.configuration.2.1.0.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec"
       ]
     },
@@ -6411,15 +6411,15 @@
         "microsoft.extensions.configuration.binder.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.CommandLine/2.0.2": {
-      "sha512": "DTyBGC28gL/kaMk5F4XsbAHu6kaWFtfJrs77m2MYrQddMFSQUAPysV42i9QyJoVLWZGTps4vA0OB/SwarMpl7A==",
+    "Microsoft.Extensions.Configuration.CommandLine/2.1.0": {
+      "sha512": "yg9lndpxgok+hMO4jQzxInnZedAFdk317M8rQkyF5JSDLMup/caEy0yNT6Nlk/WgRbALQM7uluWrNe8IX60+BQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.commandline/2.0.2",
+      "path": "microsoft.extensions.configuration.commandline/2.1.0",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.xml",
-        "microsoft.extensions.configuration.commandline.2.0.2.nupkg.sha512",
+        "microsoft.extensions.configuration.commandline.2.1.0.nupkg.sha512",
         "microsoft.extensions.configuration.commandline.nuspec"
       ]
     },
@@ -12812,6 +12812,7 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.8",
       "Microsoft.AspNetCore.StaticFiles >= 2.1.0",
+      "Microsoft.Extensions.Configuration.CommandLine >= 2.1.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Swashbuckle.AspNetCore.Swagger >= 2.5.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 2.5.0",
@@ -12864,6 +12865,10 @@
             "version": "[2.0.8, )"
           },
           "Microsoft.AspNetCore.StaticFiles": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "Microsoft.Extensions.Configuration.CommandLine": {
             "target": "Package",
             "version": "[2.1.0, )"
           },

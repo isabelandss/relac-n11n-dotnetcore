@@ -9,3 +9,4 @@ C:\Users\isabela.santos\Desktop\relacionamento1nn1-api\obj\Debug\netcoreapp2.0\r
 C:\Users\isabela.santos\Desktop\relacionamento1nn1-api\obj\Debug\netcoreapp2.0\relacionamento1nn1-api.AssemblyInfo.cs
 C:\Users\isabela.santos\Desktop\relacionamento1nn1-api\obj\Debug\netcoreapp2.0\relacionamento1nn1-api.dll
 C:\Users\isabela.santos\Desktop\relacionamento1nn1-api\obj\Debug\netcoreapp2.0\relacionamento1nn1-api.pdb
+C:\Users\isabela.santos\Desktop\relacionamento1nn1-api\bin\Debug\netcoreapp2.0\relacionamento1nn1-api.xml

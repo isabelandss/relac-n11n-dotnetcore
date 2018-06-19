@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "9c0af8223f28ac920991a12dcefc39f506e877b2"
+    "signature": "60966ef9ae7fd47762daac9645ce4f6f83b704f6"
   },
   "compilationOptions": {
     "defines": [
@@ -16,7 +16,7 @@
     "optimize": false,
     "keyFile": "",
     "emitEntryPoint": true,
-    "xmlDoc": false,
+    "xmlDoc": true,
     "debugType": "portable"
   },
   "targets": {
@@ -25,6 +25,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.8",
           "Microsoft.AspNetCore.StaticFiles": "2.1.0",
+          "Microsoft.Extensions.Configuration.CommandLine": "2.1.0",
           "Microsoft.NETCore.App": "2.0.0",
           "Swashbuckle.AspNetCore.Swagger": "2.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "2.5.0",
@@ -94,7 +95,7 @@
           "Microsoft.ApplicationInsights": "2.4.0",
           "Microsoft.ApplicationInsights.DependencyCollector": "2.4.1",
           "Microsoft.AspNetCore.Hosting": "2.0.3",
-          "Microsoft.Extensions.Configuration": "2.0.2",
+          "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.Configuration.Json": "2.0.2",
           "Microsoft.Extensions.DiagnosticAdapter": "2.0.1",
           "Microsoft.Extensions.Logging.Abstractions": "2.1.0",
@@ -132,7 +133,7 @@
           "Microsoft.AspNetCore.Server.IISIntegration": "2.0.3",
           "Microsoft.AspNetCore.Server.Kestrel": "2.0.3",
           "Microsoft.AspNetCore.Server.Kestrel.Https": "2.0.3",
-          "Microsoft.Extensions.Configuration.CommandLine": "2.0.2",
+          "Microsoft.Extensions.Configuration.CommandLine": "2.1.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.0.2",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.0.2",
           "Microsoft.Extensions.Configuration.Json": "2.0.2",
@@ -248,11 +249,11 @@
           "Microsoft.Extensions.Caching.Memory": "2.0.2",
           "Microsoft.Extensions.Caching.Redis": "2.0.2",
           "Microsoft.Extensions.Caching.SqlServer": "2.0.2",
-          "Microsoft.Extensions.Configuration": "2.0.2",
+          "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.0",
           "Microsoft.Extensions.Configuration.AzureKeyVault": "2.0.2",
           "Microsoft.Extensions.Configuration.Binder": "2.0.2",
-          "Microsoft.Extensions.Configuration.CommandLine": "2.0.2",
+          "Microsoft.Extensions.Configuration.CommandLine": "2.1.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.0.2",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.0.2",
           "Microsoft.Extensions.Configuration.Ini": "2.0.2",
@@ -644,7 +645,7 @@
           "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.1.0",
           "Microsoft.AspNetCore.Http": "2.0.3",
           "Microsoft.AspNetCore.Http.Extensions": "2.1.0",
-          "Microsoft.Extensions.Configuration": "2.0.2",
+          "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.0.2",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.0.2",
           "Microsoft.Extensions.DependencyInjection": "2.0.0",
@@ -1709,7 +1710,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.SqlServer.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/2.0.2": {
+      "Microsoft.Extensions.Configuration/2.1.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.0"
         },
@@ -1734,7 +1735,7 @@
       "Microsoft.Extensions.Configuration.AzureKeyVault/2.0.2": {
         "dependencies": {
           "Microsoft.Azure.KeyVault": "2.3.2",
-          "Microsoft.Extensions.Configuration": "2.0.2",
+          "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.0.2",
           "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.14.1"
         },
@@ -1747,7 +1748,7 @@
       },
       "Microsoft.Extensions.Configuration.Binder/2.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.2"
+          "Microsoft.Extensions.Configuration": "2.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
@@ -1756,9 +1757,9 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.CommandLine/2.0.2": {
+      "Microsoft.Extensions.Configuration.CommandLine/2.1.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.2"
+          "Microsoft.Extensions.Configuration": "2.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll": {}
@@ -1769,7 +1770,7 @@
       },
       "Microsoft.Extensions.Configuration.EnvironmentVariables/2.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.2"
+          "Microsoft.Extensions.Configuration": "2.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
@@ -1780,7 +1781,7 @@
       },
       "Microsoft.Extensions.Configuration.FileExtensions/2.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.2",
+          "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.FileProviders.Physical": "2.0.1"
         },
         "runtime": {
@@ -1792,7 +1793,7 @@
       },
       "Microsoft.Extensions.Configuration.Ini/2.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.2",
+          "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.0.2"
         },
         "runtime": {
@@ -1804,7 +1805,7 @@
       },
       "Microsoft.Extensions.Configuration.Json/2.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.2",
+          "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.0.2",
           "Newtonsoft.Json": "10.0.1"
         },
@@ -1828,7 +1829,7 @@
       },
       "Microsoft.Extensions.Configuration.Xml/2.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.2",
+          "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.0.2",
           "System.Security.Cryptography.Xml": "4.4.2"
         },
@@ -4817,12 +4818,12 @@
       "path": "microsoft.extensions.caching.sqlserver/2.0.2",
       "hashPath": "microsoft.extensions.caching.sqlserver.2.0.2.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration/2.0.2": {
+    "Microsoft.Extensions.Configuration/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-n5HeFXiEFONntcwVFvEGY5dnB8VRqGD20RrdB9omX6dAAUSIV/sGwGhaLV5neOt/uvhc64VDmKjIjdffC6TX5A==",
-      "path": "microsoft.extensions.configuration/2.0.2",
-      "hashPath": "microsoft.extensions.configuration.2.0.2.nupkg.sha512"
+      "sha512": "sha512-9OBzLBp9iD0slK3YKwnaWQ7VMWf5Vq2u8A1iULvMA5pXJ/A03bap24HQoH6AZR6O4HDOYRnjkfy9AydHRD7jVQ==",
+      "path": "microsoft.extensions.configuration/2.1.0",
+      "hashPath": "microsoft.extensions.configuration.2.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/2.1.0": {
       "type": "package",
@@ -4845,12 +4846,12 @@
       "path": "microsoft.extensions.configuration.binder/2.0.2",
       "hashPath": "microsoft.extensions.configuration.binder.2.0.2.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.CommandLine/2.0.2": {
+    "Microsoft.Extensions.Configuration.CommandLine/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DTyBGC28gL/kaMk5F4XsbAHu6kaWFtfJrs77m2MYrQddMFSQUAPysV42i9QyJoVLWZGTps4vA0OB/SwarMpl7A==",
-      "path": "microsoft.extensions.configuration.commandline/2.0.2",
-      "hashPath": "microsoft.extensions.configuration.commandline.2.0.2.nupkg.sha512"
+      "sha512": "sha512-yg9lndpxgok+hMO4jQzxInnZedAFdk317M8rQkyF5JSDLMup/caEy0yNT6Nlk/WgRbALQM7uluWrNe8IX60+BQ==",
+      "path": "microsoft.extensions.configuration.commandline/2.1.0",
+      "hashPath": "microsoft.extensions.configuration.commandline.2.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.EnvironmentVariables/2.0.2": {
       "type": "package",

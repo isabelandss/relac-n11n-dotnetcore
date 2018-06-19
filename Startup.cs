@@ -38,6 +38,12 @@ namespace relacionamento1nn1_api
 
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+
+                string caminhoAplicacao = PlatformServices.Default.Application.ApplicationBasePath;
+                string nomeAplicacao = PlatformServices.Default.Application.ApplicationName;
+                string caminhoXmlDoc = Path.Combine(caminhoAplicacao, $"{nomeAplicacao}.xml");
+
+                c.IncludeXmlComments(caminhoXmlDoc);
             });
         }
 

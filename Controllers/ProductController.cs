@@ -14,6 +14,12 @@ namespace relacionamento1nn1_api.Controllers
             context = _context;
         }
 
+        /// <summary>
+        /// Transforma uma temperatura em Fahrenheit para o equivalente
+        /// nas escalas Celsius e Kelvin.
+        /// </summary>
+        /// <returns>Objeto contendo valores para uma temperatura
+        /// nas escalas Fahrenheit, Celsius e Kelvin.</returns>
         [HttpGet]
         public IEnumerable<Products> get() {
             return context.Products.ToList();
